@@ -236,4 +236,4 @@ void run()
 	showEx((Tst*)ptst);
 }
 
-#endif //
+#endif //__TES__H__
