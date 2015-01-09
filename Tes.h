@@ -130,9 +130,9 @@ void setBuf(char* buf)
 	int _c = 2;
 	int _d = 3;
 	int _e = 5;
-	char _f[32] = "123456789";
-	char _g[256] = "123456789012345";
-	char _h[256] = "12345678901234567890";
+	char _f[32] = "1234567890123456789012";
+	char _g[256] = "1234567890123456789012";
+	char _h[256] = "1234567890123456789012";
 	char _i[128] = "1234567890123456789012";
 
 	int off = 0;
@@ -177,9 +177,7 @@ void run()
 	char* buf = getBuf(); 
 	setBuf(buf);
 
-
-	char desc[] = "float,int,int,int,int,char:2|32,char:3|256,char:4|256,char:5|128";
-	char* str = desc;
+	char* str = getDesc();
 	noEmpty(str);
 
 	char* s = str;
