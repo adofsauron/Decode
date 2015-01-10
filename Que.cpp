@@ -8,7 +8,7 @@ void Que::push(int x)
 int Que::pop()
 {
 	if (var > index)
-		return NULL;
+		return 0;
 	return stg[var++];
 }
 
