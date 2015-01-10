@@ -130,10 +130,10 @@ void setBuf(char* buf)
 	int _c = 2;
 	int _d = 3;
 	int _e = 5;
-	char _f[32] = "1234567890123456789012";
-	char _g[256] = "1234567890123456789012";
-	char _h[256] = "1234567890123456789012";
-	char _i[128] = "1234567890123456789012";
+	char _f[32]  = "abcdefghigklmnopkrstuwxyz";
+	char _g[256] = "abcdefghigklmnopkrstuwxyz";
+	char _h[256] = "abcdefghigklmnopkrstuwxyz";
+	char _i[128] = "abcdefghigklmnopkrstuwxyz";
 
 	int off = 0;
 	memcpy(buf + off, &_a, sizeof(float));
