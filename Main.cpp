@@ -5,6 +5,6 @@ int main()
 {
 	run();
 
-	getchar();
+//	getchar();
 	return 0;
 }
